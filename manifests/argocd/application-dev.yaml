@@ -12,8 +12,8 @@ spec:
   # Source of the application manifests
   source:
     repoURL: https://github.com/boh-dan/test-manifests
-    #targetRevision: bohdan-deploy-traffic-dev  # For Helm, this refers to the chart version.
-    targetRevision: main
+    targetRevision: bohdan-deploy-traffic-dev  # For Helm, this refers to the chart version.
+    #targetRevision: main
     path: manifests/dev
 
   
